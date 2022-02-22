@@ -7,5 +7,5 @@
 
 ## Requirements
 - Windows
-- Word
+- Word (32 bit)
 - Python 3
