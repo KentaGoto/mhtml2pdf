@@ -42,7 +42,7 @@ if __name__ == '__main__':
         current_file = os.path.basename(i)
         fname, ext = os.path.splitext(current_file)
         
-        if ext == '.mht' or ext == '.mhtml':
+        if ext == '.mht' or ext == '.mhtml' or ext == '.html' or ext == '.htm':
             try:
                 # Convert mhtml to pdf
                 mhtml2pdf(dirname + '/' + current_file, word)
